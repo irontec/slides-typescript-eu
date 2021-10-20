@@ -1,0 +1,66 @@
+{
+  "title": "Typescriptera sarrera",
+  "og_url": "https://irontec.github.io/slides-typescript-eu/",
+  "og_image": "https://irontec.github.io/slides-typescript-eu/media/images/logo.png",
+  "options": {
+    "controls": true,
+    "progress": true,
+    "history": true,
+    "center": true,
+    "slideNumber": true,
+    "touch": true,
+    "hideAddressBar": true,
+    "mouseWheel": true
+  },
+  "plugins": {
+    "search": true,
+    "zoom":   true,
+    "menu":   true,
+    "notes":  true,
+    "highlightjs": true,
+    "ga": "UA-130231733-3"
+  },
+  "serviceWorker": true,
+  "slides": [
+    {"path": "index.md", "attrs": {"class":"intro"}},
+    [
+        "01-intro/*"
+    ],
+    [
+      "02-getting-started/*"
+    ],
+    [
+      "03-core-types/*"
+    ],
+    [
+      "04-interfaces/*"
+    ],
+    [
+      "05-classes/*"
+
+    ],
+    [
+      "06-functions/*"
+    ],
+    [
+      "07-generics/*"
+    ],
+    [
+      "08-advanced-types/*"
+
+    ],
+    [
+      "09-modules/*"
+    ],
+    [
+      "10-decorators/*"
+    ],
+    [
+      "11-declaration-files/*"
+    ],
+    [
+      "12-tsconfig/*"
+    ],
+    {"path": "end.md", "attrs": {"class":"last bg-red"}}
+  ]
+}
